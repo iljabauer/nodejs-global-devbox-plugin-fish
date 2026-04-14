@@ -9,8 +9,8 @@
     },
     "shell": {
         "init_hook": [
-            "echo \"nodejs-global plugin: global npm directory set to ${NPM_CONFIG_PREFIX}\"",
-            "echo \"nodejs-global plugin: global pnpm directory set to ${PNPM_HOME}\""
+            "echo \"nodejs-global plugin: global npm directory set to $NPM_CONFIG_PREFIX\"",
+            "echo \"nodejs-global plugin: global pnpm directory set to $PNPM_HOME\""
         ]
     }
 }
